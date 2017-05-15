@@ -1,0 +1,18 @@
+local function update_score(self)
+	label.set_text("#score", ("%d : %d"):format(self.score[1], self.score[2]))
+end
+
+function init(self)
+	self.score = { 0, 0 }
+	update_score(self)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("increase_player1") then
+		self.score[1] = self.score[1] + 1
+		update_score(self)
+	elseif message_id == hash("increase_player2") then
+		self.score[2] = self.score[2] + 1
+		update_score(self)
+	end
+end
