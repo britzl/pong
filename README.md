@@ -3,10 +3,10 @@
 
 The game consists of the following key components:
 
-* paddle.script - The script controlling the paddles (both player and AI).
-* ball.script - The script controlling the ball movement and collision handling (bounce).
-* score.script - The script to keep track of and update the score.
-* pong.collection - The main collection for the game. Containing two paddles (each with a sprite and a collision object), one ball (with a sprite and a collision object) and the walls (only collision objects).
+* [paddle.script](pong/paddle.script) - The script controlling the paddles (both player and AI).
+* [ball.script](pong/ball.script) - The script controlling the ball movement and collision handling (bounce).
+* [score.script](pong/score.script) - The script to keep track of and update the score.
+* [pong.collection](pong/pong.collection) - The main collection for the game. Containing two paddles (each with a sprite and a collision object), one ball (with a sprite and a collision object) and the walls (only collision objects).
 
 ## Play Online
 HTML5 version: https://britzl.github.io/Pong/
