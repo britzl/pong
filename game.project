@@ -1,7 +1,7 @@
 [project]
 title = Pong
 version = 1.0
-dependencies = 
+dependencies =
 
 [bootstrap]
 main_collection = /pong/pong.collectionc
@@ -19,9 +19,6 @@ scale = 0.02
 [script]
 shared_state = 1
 
-[library]
-include_dirs = defcon
-
 [android]
 package = com.britzl.defcon
 
@@ -30,4 +27,3 @@ bundle_identifier = com.britzl.defcon
 
 [osx]
 bundle_identifier = com.britzl.defcon
-
