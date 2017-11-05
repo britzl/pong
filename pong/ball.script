@@ -44,8 +44,8 @@ function on_message(self, message_id, message, sender)
 		elseif message.group == hash("goalp2") then
 			go.set_position(self.original_position)
 			msg.post("score", "increase_player2")
-		-- collided with a padde - add random adjustment to vertical direction
-	elseif message.group == hash("paddle") then
+		-- collided with a paddle - add random adjustment to vertical direction
+		elseif message.group == hash("paddle") then
 			local dist = go.get_position(message.other_id) - go.get_position()
 			self.direction.y = self.direction.y - dist.y / 150
 			self.direction = vmath.normalize(self.direction)
