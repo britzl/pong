@@ -20,10 +20,10 @@ scale = 0.02
 shared_state = 1
 
 [android]
-package = com.britzl.defcon
+package = com.britzl.pong
 
 [ios]
-bundle_identifier = com.britzl.defcon
+bundle_identifier = com.britzl.pong
 
 [osx]
-bundle_identifier = com.britzl.defcon
+bundle_identifier = com.britzl.pong
