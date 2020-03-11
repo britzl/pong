@@ -16,5 +16,5 @@ key_trigger {
 }
 mouse_trigger {
   input: MOUSE_BUTTON_1
-  action: "fire"
+  action: "touch"
 }

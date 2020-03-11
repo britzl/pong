@@ -1,7 +1,7 @@
 [project]
 title = Pong
 version = 1.0
-dependencies =
+dependencies = 
 
 [bootstrap]
 main_collection = /pong/pong.collectionc
@@ -12,6 +12,7 @@ game_binding = /input/game.input_bindingc
 [display]
 width = 1136
 height = 640
+fullscreen = 1
 
 [physics]
 scale = 0.02
@@ -27,3 +28,10 @@ bundle_identifier = com.britzl.pong
 
 [osx]
 bundle_identifier = com.britzl.pong
+
+[native_extension]
+app_manifest = /generated.appmanifest
+
+[html5]
+scale_mode = fit
+
